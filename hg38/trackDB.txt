@@ -16,3 +16,15 @@ visibility 0
 bigDataUrl LiGRSeq_both_reps.bb
 shortLabel LIGR-seq
 longLabel LIGR-seq
+
+
+track icSHAPE
+type bigWig
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+maxHeightPixels 500:100:8
+visibility 0
+shortLabel icSHAPE
+longLabel icSHAPE in Hek chromatin
+viewLimits 0:1
