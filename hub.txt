@@ -1,0 +1,5 @@
+hub Pairs of Conserved Complementary Regions less
+shortLabel PCCR_less
+longLabel Pairs of Conserved Complementary Regions less
+genomesFile genomes.txt 
+email kate-chernjavskaja@yandex.ru
