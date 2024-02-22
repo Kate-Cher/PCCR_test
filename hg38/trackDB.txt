@@ -18,13 +18,21 @@ shortLabel LIGR-seq
 longLabel LIGR-seq
 
 
-track icSHAPE
-type bigWig
-container multiWig
-aggregate transparentOverlay
-showSubtrackColorOnUi on
-maxHeightPixels 500:100:8
+track RIC-seq
+type bigBed 12 +
+exonNumbers on
+itemRgb on
 visibility 0
-shortLabel icSHAPE
-longLabel icSHAPE in Hek chromatin
-viewLimits 0:1
+bigDataUrl ric2_hg38.bb
+shortLabel RIC-seq
+longLabel RIC-seq
+
+
+track slow_pol_II
+type bigBed 9
+exonNumbers on
+itemRgb on
+visibility 0
+bigDataUrl slow_pol_track_hg38.bb
+shortLabel slow_pol_II
+longLabel slow RNApol II
