@@ -19,7 +19,7 @@ longLabel LIGR-seq
 
 
 track RIC-seq
-type bigBed 9 +
+type bigBed 9
 exonNumbers on
 itemRgb on
 visibility 0
